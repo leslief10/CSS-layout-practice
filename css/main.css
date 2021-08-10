@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50px 90px;
+}
+
+header .header-icons-container {
+  width: 100%;
+  display: flex;
+  background-color: #47cfac;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header-icons-container .icons {
+  margin-right: 50px;
+}
+
+header .icons span {
+  color: white;
+}
